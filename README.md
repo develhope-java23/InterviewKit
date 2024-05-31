@@ -14,4 +14,6 @@
 
 ## Interview 3
 - Perchè dobbiamo estendere JpaRepository quando creiamo un repository per una specifica entità? Di che parametri necessitiamo?
+- Qual è la differenza fra i metodi *save* e *saveAndFlush*?
+- Date due variabili di tipo String *a* e *b*, qual è la differenza fra lo scrivere *a == b* e *a.equals(b)*?
 
