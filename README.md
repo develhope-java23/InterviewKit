@@ -6,3 +6,12 @@
 
 ## Interview 2
 - Qual è la differenza fra le annotazioni @Controller e @RestController di Spring?
+- Cosa si intende per "incapsulamento"?
+- Cosa si può dire di un metodo con la seguente signature?
+```java
+  void abc(String x, String y)
+```
+
+## Interview 3
+- Perchè dobbiamo estendere JpaRepository quando creiamo un repository per una specifica entità? Di che parametri necessitiamo?
+
