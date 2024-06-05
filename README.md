@@ -19,6 +19,24 @@
     return result;
   }
 ```
+- Dato il seguente schema:
+```sql
+  Car(
+    plate CHAR(8) PRIMARY KEY,
+    maxSpeed INTEGER NOT NULL,
+    capacity INTEGER NOT NULL
+  )
+  
+  Road(
+    identifier INTEGER PRIMARY KEY,
+    minimumSpeed INTEGER NOT NULL,
+    length INTEGER NOT NULL,
+    hasChargeStations BOOLEAN NOT NULL
+  )
+```
+  Scrivere le seguenti query:
+  - Ritorna tutte le strade che hanno una velocità minima maggiore di 60
+  - Ritorna per ogni macchina tutte le strade a cui può accedere. Una macchina può accedere ad una strada se la sua velocità massima è maggiora della velocità minima della strada.
   
 # 31/05/2024
 ## Interview 1
