@@ -10,7 +10,7 @@
 ```
   - Se esiste un'eccezione di tipo T che estende NoElementException, posso lanciarla in questo metodo?
   - Se T estende RuntimeException ma non NoElementException, posso lanciarla?
--
+- Viene richiesto di fare la revisione di un metodo che somma tutti gli elementi in un array. Dato il seguente codice, segnalare eventuali errori e proporre le relative correzioni:
 ```java
   int sum(int[] array) {
     for(int i = 1; i <= array.length; ++i) {
